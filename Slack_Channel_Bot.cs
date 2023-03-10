@@ -5,9 +5,9 @@ using System.Threading;
 using RestSharp;
 using RestSharp.Authenticators;
 
-namespace SlackBotDemo
+namespace SlackChannelBot
 {
-    class Program8
+    class Program
     {
         // Setting up required parameters
         static string slackBotToken = "token"; // Bot token for authentication
