@@ -4,7 +4,7 @@ Slack_Channel_Bot is a C# console application that listens for messages in a spe
 
 ## Setup
 
-1. Create a new bot in your Slack workspace and generate a bot token for it.
+1. Create a new bot(app) in your Slack workspace and generate a bot token for it. And you must add the necessary bot scopes.
 2. Set the `slackBotToken`, `slackChannelIDForListen`, and `slackBotUserID` variables in the `Program.cs` file to the appropriate values for your Slack bot and channel.
 3. Run the application.
 
@@ -18,26 +18,22 @@ The SlackChannelBot listens for incoming messages in the specified Slack channel
 
 ### Example Usage
 
-1. User: `Hello!`
-   Bot: `Hello! :hand: How can I help you? :cool_thinking_blob:`
+User: `Hello!`
 
-2. User: `-help`
-   Bot: `Commands : \n-help`
+   Bot: 
 
-## Code Reference
+<img width="240" alt="image" src="https://user-images.githubusercontent.com/110940406/224450922-0964f691-d4da-4f05-aa21-7a3ea63c3a23.png">
 
-### Classes
 
-- `Program`: The main class that contains the application logic.
 
-### Methods
+## Methods
 
 - `Main(string[] args)`: The entry point of the application. Initializes the application and starts listening for incoming messages.
 - `GetLastMessage()`: Retrieves the timestamp of the last message received in the specified Slack channel.
 - `ListenForMessages()`: Listens for incoming messages in the specified Slack channel and responds to them based on certain keywords.
 - `SendMessage(string userId, string text)`: Sends a message to the specified user in the specified Slack channel.
 
-### Variables
+## Variables
 
 - `slackBotToken`: The bot token for authentication.
 - `lastMessageTimestamp`: A variable to store the timestamp of the last message received.
