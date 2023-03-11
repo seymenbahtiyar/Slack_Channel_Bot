@@ -1,6 +1,6 @@
-# Slack_Channel_Bot
+# Slack Channel Bot
 
-Slack_Channel_Bot is a C# console application that listens for messages in a specific Slack channel and responds to them based on certain keywords. It uses the [RestSharp](https://restsharp.dev/) library for making API requests to the [Slack API](https://api.slack.com/methods).
+Slack Channel Bot is a C# console application that listens for messages in a specific Slack channel and responds to them based on certain keywords. It uses the [RestSharp](https://restsharp.dev/) library for making API requests to the [Slack API](https://api.slack.com/methods).
 
 ## Setup
 
